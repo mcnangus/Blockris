@@ -1,0 +1,45 @@
+{
+  materials: [
+    {
+      name: 'red',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.9,
+            0.9,
+            0.9,
+            1,
+          ],
+        },
+        {
+          metallic: 0.9,
+        },
+        {
+          anisotropy: 0.0,
+        },
+        {
+          roughness: 0,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/block.obj',
+    name: 'block',
+    recenter: 'root',
+    scale: 0.248756,
+  },
+  version: '0.54:2',
+}
